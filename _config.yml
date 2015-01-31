@@ -8,13 +8,12 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
+title : Yingjie's Static Blog 
 tagline: Site Tagline
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
+  name : Yingjie Luan    
+  email : 1275963@gmail.com
+  github : y1275963
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -80,7 +79,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : facebook 
     disqus :
       short_name : jekyllbootstrap
     livefyre :
@@ -88,7 +87,7 @@ JB :
     intensedebate :
       account : 123abc
     facebook :
-      appid : 123
+      appid : 362637097262675
       num_posts: 5
       width: 580
       colorscheme: light
