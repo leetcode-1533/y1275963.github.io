@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Index"
+title: "About"
 description: ""
 ---
 {% include JB/setup %}
 
-This is Yingjie's post
+Email: 1275963[at]gmail.com
