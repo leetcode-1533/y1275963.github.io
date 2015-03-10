@@ -8,3 +8,8 @@ Thumbs.db
 
 .rbenv-version
 .rvmrc
+
+*.md.swn
+*.swp
+*.md.swo
+*.un~

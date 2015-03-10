@@ -9,6 +9,7 @@ Due to maintaince reasons, I switched from wordpress to Jekyll. I hope I can per
 
 ##About Me##
 
+![me]({{y1275963.github.com}}/images/IMG_1767.jpg)
 Programming Languages :
 
  * Basic: VHDL
