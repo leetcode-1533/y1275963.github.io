@@ -5,4 +5,33 @@ description: ""
 ---
 {% include JB/setup %}
 
-Email: 1275963[at]gmail.com
+Due to maintaince reasons, I switched from wordpress to Jekyll. I hope I can persiste this hobby as long as I can.
+
+##About Me##
+
+Programming Languages :
+
+ * Basic: VHDL
+ * Intermediate: C++, C, Python, Latex
+ * Proficient: Matlab
+
+Interested Areas:
+
+ * Scientific Comuputation, Optimization
+ * Basic Algorithms
+
+##About this Website##
+
+This website is hosted at github.com, to download: 
+<code>
+ git clone git@github.com:y1275963/y1275963.github.io.git
+<code>
+
+## Contact ##
+
+ * Email: 1275963@gmail.com
+ * Github: y1275963.github.com
+
+
+
+
