@@ -26,9 +26,9 @@ Interested Areas:
 ##About this Website##
 
 This website is hosted at [github.com](https://github.com/y1275963), to download: 
-<code>
- git clone git@github.com:y1275963/y1275963.github.io.git
-<code>
+{% highlight bash %}
+git clone git@github.com:y1275963/y1275963.github.io.git
+{% endhighlight %}
 
 ## Contact ##
 
