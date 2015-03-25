@@ -9,7 +9,9 @@ Due to maintaince reasons, I switched from wordpress to Jekyll. I hope I can per
 
 ##About Me##
 
-![me]({{y1275963.github.io}}/images/IMG_1767.jpg)
+![me](https://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/me.jpg)
+<!-- Image testing: -->
+<!-- ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png) -->
 Programming Languages :
 
  * Basic: VHDL
