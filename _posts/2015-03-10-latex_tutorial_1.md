@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "latex_tutorial_1"
+title: "Latex Tutorial 1"
 description: ""
 category: Latex 
 tags: [Latex]
