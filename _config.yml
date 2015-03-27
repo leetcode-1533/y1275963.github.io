@@ -6,6 +6,18 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
 paginate: 10
 
+navigation:
+- text: Index
+  url: /
+  icon: "glyphicon glyphicon-home"
+- text: Categories
+  url: /pages/categories.html
+- text: Pages
+  url: /pages/pages.html
+- text: Archive
+  url: /pages/archive.html
+- text: About Me
+  url: /pages/about.html
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
