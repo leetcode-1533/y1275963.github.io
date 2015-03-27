@@ -35,9 +35,14 @@
   <body>
     {% include header.html %} 
     <div class="container-narrow">
+           
+<div style="width: 100%; display: table;">
+    <div style="display: table-row">
+            <div style="width: 600px; display: table-cell;"> {{ content }}</div>
+        <div style="display: table-cell;"> {% include sidebar.html %}</div>
+    </div>
+</div>
 
-
-         
     {% include footer.html %}
    </div> 
 
