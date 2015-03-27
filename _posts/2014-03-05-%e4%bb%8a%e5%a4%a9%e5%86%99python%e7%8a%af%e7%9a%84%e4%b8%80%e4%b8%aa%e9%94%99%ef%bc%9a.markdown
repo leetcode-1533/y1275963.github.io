@@ -1,0 +1,29 @@
+---
+layout: post
+status: publish
+published: true
+title: 今天写python犯的一个错：
+author:
+  display_name: y1275963
+  login: y1275963
+  email: 1275963@gmail.com
+  url: ''
+author_login: y1275963
+author_email: 1275963@gmail.com
+wordpress_id: 134
+wordpress_url: http://y1275963.info/wordpress/?p=134
+date: '2014-03-05 19:32:03 +0000'
+date_gmt: '2014-03-05 11:32:03 +0000'
+categories:
+- Python
+tags: []
+comments: []
+---
+<p>choice = raw_input('Enjoying the course? (y/n)')</p>
+<p>while choice != 'y' <span style="text-decoration: underline;">and</span> choice != 'n':# Fill in the condition (before the colon)<br />
+print choice<br />
+choice = raw_input("Sorry, I didn't catch that. Enter again: ")</p>
+<p><a href="http://y1275963.info/wordpress/wp-content/uploads/2014/03/Screen-Shot-2014-03-05-at-7.31.31-PM.png"><img class="alignnone size-medium wp-image-135" alt="Screen Shot 2014-03-05 at 7.31.31 PM" src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/Screen-Shot-2014-03-05-at-7.31.31-PM-300x74.png" width="300" height="74" /></a></p>
+<p>真是晕死了，布尔代数的错：：：</p>
+<p>&nbsp;</p>
+<p>逻辑问题哦。。</p>

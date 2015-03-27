@@ -16,6 +16,7 @@ You might want to run 0.3.0 in a branch to make sure you are ok with the theme d
 
 ## Contributing
 
+This is a  test
 
 To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
 This is very important as it allows me to accept your pull request without having to publish a public version release.

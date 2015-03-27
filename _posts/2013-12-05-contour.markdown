@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: Contour
+author:
+  display_name: y1275963
+  login: y1275963
+  email: 1275963@gmail.com
+  url: ''
+author_login: y1275963
+author_email: 1275963@gmail.com
+wordpress_id: 51
+wordpress_url: http://y1275963.info/?p=51
+date: '2013-12-05 17:35:56 +0000'
+date_gmt: '2013-12-05 09:35:56 +0000'
+categories:
+- Matlab
+tags: []
+comments: []
+---
+<p>Contour is used to draw isolines of Matrix z. Here is my result. The formula is from the Complex Function.*Hoping I can do more… The Contour is just like Surf and Mesh etc.. All kinds of 3D plotting Function. Oh, By the way. Today is the fist day that I formally left OSS, hoping that I can dominate myself and re-control it. <br />
+<img src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/wpid-wpid-wpid-27110019-25cce4893ad84a9c833bb50af78ea3a3-2013-12-5-17-35-2013-12-5-17-35-2013-12-5-17-35.jpg" alt="wpid-wpid-wpid-27110019-25cce4893ad84a9c833bb50af78ea3a3-2013-12-5-17-35-2013-12-5-17-35-2013-12-5-17-35.jpg" width="600" height="328"></p>
