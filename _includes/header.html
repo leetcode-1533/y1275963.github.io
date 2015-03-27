@@ -1,42 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ content | strip_html | truncatewords: 50 }}{% endif %}">
+<div class="navbar">
+      <div class="navbar-inner">
+        <div class="container-narrow">
+          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <ul class="nav">
+                <li><a href="/pages/categories.html">Categories</a><li>
+                <li><a href="/pages/tags.html">Tags</a><li>
+                <li><a href="/pages/archive.html">Archive</a><li>
+                <li><a href="/pages/pages.html">Pages</a><li>
+                <li><a href="/pages/about.html">About Me</a><li>
 
+           <!-- {% assign pages_list = site.data.pages%}
+            {% assign group = 'navigation' %}
+            {% include JB/pages_list %}            
+          </ul> -->
+        </div>
+      </div>
+    </div>
 
-    <!-- Le styles -->
-    <link href="{{ site.baseurl }}/css/bootstrap.css" rel="stylesheet">
-    <link href="{{ site.baseurl }}/css/font-awesome.min.css" rel="stylesheet">
-    <link href="{{ site.baseurl }}/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="{{ site.baseurl }}/css/openwebicons-bootstrap.css" rel="stylesheet" />
-    <link href="{{ site.baseurl }}/css/style.css" rel="stylesheet">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-        <script src="{{ site.baseurl }}/js/html5shiv.js"></script>
-    <![endif]-->
-
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl }}/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.baseurl }}/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/ico/apple-touch-icon-57-precomposed.png">
-    <link rel="shortcut icon" href="{{ site.baseurl }}/ico/favicon.png">
-</head>
-<body>
-{% if site.githuburl %}
-<a href="{{ site.githuburl }}">
-<img
-    alt="Fork me on GitHub"
-    src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"
-    style="position: absolute; top: 0; right: 0; border: 0;">
-</a>
-{% endif %}
-<div class="container" id="header">
-        <p class="site-name"><a rel="home" title="{{ site.name }}" href="{{ site.baseurl }}/">{{ site.title }}</a></p>
-    {% if site.description %}<p class="site-description">{{ site.description }}</p>{% endif %}
-</div>
-{% include navbar.html %}
