@@ -1,0 +1,29 @@
+---
+layout: post
+status: publish
+published: true
+title: c++中的Const变量
+author:
+  display_name: y1275963
+  login: y1275963
+  email: 1275963@gmail.com
+  url: ''
+author_login: y1275963
+author_email: 1275963@gmail.com
+wordpress_id: 105
+wordpress_url: http://y1275963.info/?p=105
+date: '2014-03-02 14:51:40 +0000'
+date_gmt: '2014-03-02 06:51:40 +0000'
+categories:
+- C++
+tags: []
+comments: []
+---
+<p>1 const 的元素变量:<br />
+只能采用赋值表的方法给予初值,不能用=<br />
+可用枚举常量替代</p>
+<p>2 const 作形参<br />
+同于一般的函数,函数体中,该值无法改变( 无论是直接写,写成引用&,写成*)</p>
+<p>3 const 的实例成员<br />
+内部成员变量的值不能被改变,<br />
+只能调用它不改变成员值的函数</p>

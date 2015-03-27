@@ -1,0 +1,79 @@
+---
+layout: post
+status: publish
+published: true
+title: 老栾教你画张图：pyqt安装略记_mac10.9
+author:
+  display_name: y1275963
+  login: y1275963
+  email: 1275963@gmail.com
+  url: ''
+author_login: y1275963
+author_email: 1275963@gmail.com
+wordpress_id: 137
+wordpress_url: http://y1275963.info/wordpress/?p=137
+date: '2014-03-05 19:50:47 +0000'
+date_gmt: '2014-03-05 11:50:47 +0000'
+categories:
+- Python
+tags: []
+comments: []
+---
+<p>环境：<br />
+1.Mac OS X 10.9.1<br />
+2.Canopy(Enthought cop) Already Installed<br />
+3.Qt 5.2.0 : Installed From dog file</p>
+<p>主要参考：<br />
+1： <span style="text-decoration: underline;">http://www.noktec.be/python/how-to-install-pyqt4-on-osx</span><br />
+2：<span style="text-decoration: underline;">http://blog.csdn.net/watsy/article/details/8857252</span><br />
+注：<br />
+Compile from source code rather than using homebrew or macport</p>
+<p>Raw Materials:</p>
+<p><a href="http://y1275963.info/wordpress/wp-content/uploads/2014/03/PyQt-mac-gpl-4.10.3.tar.gz">PyQt-mac-gpl-4.10.3.tar</a></p>
+<p><a href="http://y1275963.info/wordpress/wp-content/uploads/2014/03/sip-4.15.5-snapshot-22c03a345d4e.tar.gz">sip-4.15.5-snapshot-22c03a345d4e.tar</a></p>
+<p>Steps:</p>
+<p>1.compile&amp;install sip:<br />
+请先解压sip包，并在解压后文件夹内执行：<br />
+<span style="text-decoration: underline;">python2.6 </span><span style="text-decoration: underline;">configure.py</span><span style="text-decoration: underline;"> -d /Library/Python/2.6/site-packages -arch=x86_64</span></p>
+<p>遇到的<span style="text-decoration: underline;">bug1</span>：<br />
+请注意，安装过enthought公司的软件后，将更改path路径，如下：</p>
+<p>/usr/local/sbin:/Users/tk/Library/Enthought/Canopy_64bit/User/bin:/usr/local/bin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/usr/local/mysql/bin</p>
+<p>所以优先执行了enthought公司的python，该python无法使用与编译sip，请改用2.6，或者按照文末记录更改bash。<br />
+感悟：<br />
+不愧是Python呀，连configure文件都是用python执行的，而非bash，给人的感觉就是不一样。。。</p>
+<p><span style="text-decoration: underline;">遇到的bug2：</span><br />
+请注意，由于sip文件本身的bug，请勿在含有空格的路径执行python的configure操作。否则报错:<br />
+比如说第一次失败了，又解压了一次，默认名为：sip-4.15.4\ 2：这个文件名是由bug的，不妨放到desktop上操作.</p>
+<p>For beginners:<br />
+该步骤中的configure操作将检查系统环境，生成makefile文件。为下一步compile提供变量。</p>
+<p>之后执行：</p>
+<p><span style="text-decoration: underline;">make</span><br />
+For beginners:<br />
+该步骤在当前目录下编译source code</p>
+<p><span style="text-decoration: underline;">sudo make install</span><br />
+For beginners:<br />
+该步骤copy安装的binary到destination path上（由于改动了系统文件，所以sudo了）</p>
+<p>Tips how to know we made it?<br />
+echo $?<br />
+0 for success<br />
+!=0 for failed</p>
+<p>2. compile &amp; install pyqt<br />
+请注意，binery安装的qt是没有更改系统目录的，这个和linux的不一样。qmake在：<br />
+/Users/<span style="text-decoration: underline;">username</span>/Qt5.2.0/5.2.0/clang_64/bin<br />
+username 为安装qt时候用的用户名 Or ~(家目录）</p>
+<p>由于要更改 qmake的路径，使用下列代码configure，操作在解压后的PyQt-mac-gpl-4.10.3中：</p>
+<p>python <span style="text-decoration: underline;">configure-ng.py</span> -q <span style="text-decoration: underline;">/Users/username/Qt5.2.0/5.2.0/clang_64/bin/qmake</span> -d <span style="text-decoration: underline;">/Library/Python/2.6/site-packages/</span> --sip <span style="text-decoration: underline;">/System/Library/Frameworks/Python.framework/Versions/2.6/bin/sip</span></p>
+<p>第一行：qmake路径；第二行，python的路径；第三行，step1中sip的路径。<br />
+往下的就一样的啦：<br />
+similarly:<br />
+make<br />
+sudo make install</p>
+<p>上述完成后，手动更改因enthought公司canopy软件更改path的问题：<br />
+在家目录下的.bash_profile文件中（没有就创建一个喽）：<br />
+增加一句：<br />
+alias python=‘python2.6’；<br />
+这样就屏蔽掉了enthought的python<br />
+Testing:<br />
+创建文件test.py:</p>
+<p><a href="http://y1275963.info/wordpress/wp-content/uploads/2014/03/test.py_.zip">test.py</a></p>
+<p>运行python test.py。发现可用。</p>
