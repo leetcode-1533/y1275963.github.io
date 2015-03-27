@@ -1,0 +1,50 @@
+---
+layout: post
+status: publish
+published: true
+title: 大作业总结~
+author:
+  display_name: y1275963
+  login: y1275963
+  email: 1275963@gmail.com
+  url: ''
+author_login: y1275963
+author_email: 1275963@gmail.com
+wordpress_id: 42
+wordpress_url: http://y1275963.info/?p=42
+date: '2013-12-23 17:32:20 +0000'
+date_gmt: '2013-12-23 09:32:20 +0000'
+categories:
+- C++
+- Qt
+tags: []
+comments:
+- id: 34
+  author: gta 5 cheats
+  author_email: deanpetrie@googlemail.com
+  author_url: http://tinyurl.com/o55af8p
+  date: '2014-04-14 23:29:21 +0100'
+  date_gmt: '2014-04-14 15:29:21 +0100'
+  content: "I really love your blog.. Excellent colors &amp; theme.\r\nDid you build
+    this site yourself? Please reply back as I'm trying to create my very own website
+    and \r\nwant to know where you got this from or exactly what \r\nthe theme is
+    named. Many thanks!"
+- id: 46
+  author: y1275963
+  author_email: 1275963@gmail.com
+  author_url: ''
+  date: '2014-04-16 13:08:33 +0100'
+  date_gmt: '2014-04-16 05:08:33 +0100'
+  content: |-
+    Yeah, I build it myself.. Based on Wordpress & Apache and Centos as well.
+    The theme just came with the Original Wordpress archive, you can download this one from http://wordpress.org/latest. The Theme name is Twenty Twelve.
+---
+<p><img src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/wpid-Screen-Shot-2013-12-23-at-5.21.49-PM1-2013-12-23-17-32.png" alt="wpid-Screen-Shot-2013-12-23-at-5.21.49-PM1-2013-12-23-17-32.png" width="77" height="67"><br />
+<img src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/wpid-Screen-Shot-2013-12-23-at-5.25.46-PM-2013-12-23-17-32.png" alt="wpid-Screen-Shot-2013-12-23-at-5.25.46-PM-2013-12-23-17-32.png" width="600" height="366"></p>
+<p>mac竟然崩掉了.你这让我如何是好~不行不行,这个qt的总结挺重要的,是面向对象的理解,重新写一遍吧.<span style="text-decoration: underline;"><a href="https://github.com/y1275963/FFF">git</a></span>(~额的心肝)<br />
+额,这个程序写了一个月~大概有3000+吧,当初写的想法是”调用一切可用的资源,做出最好的程序”,目前感觉我对面向对象那块弄的还不错,但是当了程序员之后有个硬伤,那就是”对美的阀值"已经低到了令人发指的地步了.整天在console跑,全是终端,根本就没有什么图形客户端的感觉了~还是老师会说话,那叫”朴素”明白吗…有空的时候我好好修补一下.<br />
+为了写这个程序我给他铺设了两大支持系统.一个是用来表达个性化的登录系统,就是说,一旦有人登录了,这个系统保障了任何用有这个类的成员都能获得这个人的个性化信息,从而根据该信息进行remodify.比如说有了tutor支持就可以发布信息,有了admin支持就可以进行人事更改.还有一个是个不说也得要的~数据库嘛,我总得保障能链到一起.(话说现在我是写一段publish一段啊,就和用git似得,真伤了).我感觉这两个完全自己写的QObject也许就能部分代表面向对象这种思想吧,传入一个简简单单的一个指针,我就能即时的获取无尽的相关资源.妈妈再也不用让我到处乱跑了~只要源头上变了,后面全部跟着变.<br />
+然后再来再来介绍下M/V架构吧.这个Model就好像我刚才写的那俩支持系统,也想各位看官没有见到的,但的的却却跟着我的内存跑了的”滤光片”的说法.model负责做个适配器,连接着数据库和前台的view,它在程序中管理着数据,提供着数据的api接口.把view从繁重的sql等数据解析中解放出来了,更重要的一点,这个”解放”是全体的,从而保证了各区的view的数据一致性,再也不用担心数据上的差异了.view之前就有,不过现在负责的范围小多了,不再负责解析数据,而负责向用户展示数据还有接受用户的指示.view对数据的调用是主动的,model对数据的调用是被动的,但是主动的搜寻怕找不齐,被动的没法用,结合一下,还好还好啦~<br />
+Qt对数据库提供了两种从此上的支持,一种是类c的做法,QSqlquery,直接使用sql语句,干脆利落,但是缺陷十分明显,不仅用法局限,而且还不从属于model/view架构,这意味着如果只使用query,你写的程序基本上和c没啥差别.另外就是model了名字就告诉你这东西就是model/view的一部分.用model基本上可以躲开sql,但也还得用一点.但是抽象的太高也不好,比如我用了个叫mete的适配器,用line-&gt;mete-&gt;model-&gt;query整整四大部,错一个都没法提交.我弄了好多天都没提交上去~太抽象了~<br />
+&lt;您现在看到的blog是第三次保存的结果&gt;…<br />
+说说之后的打算把,这次我认为无论是Qt还是面向对象都是很有收获的.按照我们的发展计划,上位机系统我是弄得差不多了,linux那边还不太好.下学期一定搞个服务器来耍,然后争取弄个linux的红帽认证.还就就是串口通讯了.那个是我们的希望~</p>

@@ -1,0 +1,81 @@
+---
+layout: post
+status: publish
+published: true
+title: libsvm 小教程
+author:
+  display_name: y1275963
+  login: y1275963
+  email: 1275963@gmail.com
+  url: ''
+author_login: y1275963
+author_email: 1275963@gmail.com
+wordpress_id: 189
+wordpress_url: http://y1275963.info/wordpress/?p=189
+date: '2014-03-14 23:07:07 +0000'
+date_gmt: '2014-03-14 15:07:07 +0000'
+categories:
+- Python
+tags: []
+comments: []
+---
+<p>昨天有个同学找我问svm的事，那就写写吧，自己也回顾一下：</p>
+<p>Env:</p>
+<p>1.Mac 10.9</p>
+<p>2.Python 2.7 : compiled from anaconda.</p>
+<p>恩，<a href="http://y1275963.info/wordpress/wp-content/uploads/2014/03/libsvm-3.17.zip">libsvm-3.17</a>这个就是今天的主菜了。由于鄙人在Mac下工作，那些win的同学们就对不住了啊。</p>
+<p>本来想写个matlab的，懒得再弄了，毕竟之后自己感觉工作重点在python，因为matlab自己感觉有时候字符串处理还有部署是点问题了。大概折腾了一会吧，对python module的引入不太了解。</p>
+<p>(1).py:</p>
+<p>先到python那个文件夹，然后make一下就成了，那个python里面的.py就是我们要处理的文件了。</p>
+<p><a href="http://y1275963.info/wordpress/wp-content/uploads/2014/03/Screen-Shot-2014-03-14-at-10.52.35-PM.png"><img class="alignnone size-full wp-image-194" alt="Screen Shot 2014-03-14 at 10.52.35 PM" src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/Screen-Shot-2014-03-14-at-10.52.35-PM.png" width="195" height="21" /></a>按照官网的说法：</p>
+<p>“when a module named spam is imported, the interpreter first searches for a built-in module with that name. If not found, it then searches for a file named spam.py in a list of directories given by the variable sys.path. sys.path is initialized from there locations:</p>
+<ul>
+<li>the directory containing the input script(or the current directory).</li>
+<li>PYTHONPATH(a list of directory names. with the same syntax as the sheel variable PATH)</li>
+<li>the installation-dependent default."</li>
+</ul>
+<p>我也没弄明白，但是大概考虑应该和PySide之类的类放在一起吧，然后这样做：</p>
+<pre class="lang:default decode:true">import svm
+help('svm')</pre>
+<p>就会有：</p>
+<pre class="lang:sh decode:true">NAME
+    svm
+
+FILE
+    /Users/tk/anaconda/lib/python2.7/site-packages/svm.py</pre>
+<p>之类的路径。我反推了出来，在~/anaconda/lib/python2.7/site-packages那个文件夹就好了，然后直接copy那两个文件到那个文件夹就好了</p>
+<pre class="lang:sh decode:true">[~/anaconda/lib/python2.7/site-packages tk$]ls | grep svm
+svm.py
+svm.pyc
+svmutil.py
+svmutil.pyc
+[~/anaconda/lib/python2.7/site-packages tk$]</pre>
+<p>(2)dll:</p>
+<p>对了，根据README的说法，svm.py里面是这样写的：</p>
+<pre class="lang:default decode:true">#!/usr/bin/env python
+
+from ctypes import *
+from ctypes.util import find_library
+from os import path
+import sys
+
+try:
+	dirname = path.dirname(path.abspath(__file__))
+	if sys.platform == 'win32':
+		libsvm = CDLL(path.join(dirname, r'..\windows\libsvm.dll'))
+	else:
+		libsvm = CDLL(path.join(dirname, '/usr/local/lib/libsvm.so.2'))</pre>
+<p>看到有个else的语句没：</p>
+<pre>libsvm = CDLL(path.join(dirname, '/usr/local/lib/libsvm.so.2'))</pre>
+<p>这个svm的东东啊，需要一个libsvm.so.2的dll文件才能跑起来，他就在libsvm-3.17那个主文件下面，copy到一个固定的位置就好。（我的是/usr/local/bin)</p>
+<p>至此在anaconda部署Libsvm完成。随意找到一个路径，发现Import svm可用。</p>
+<p>那就再来耍耍喽：</p>
+<pre class="lang:default decode:true ">from svmutil import *
+
+y ,x = [1,-1],[{1:1,3:1},{1:-1,3:-1}]
+
+prob = svm_problem(y,x)
+param = svm_parameter('-t 0 -c 4 -b 1')
+m = svm_train(prob,param)</pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>

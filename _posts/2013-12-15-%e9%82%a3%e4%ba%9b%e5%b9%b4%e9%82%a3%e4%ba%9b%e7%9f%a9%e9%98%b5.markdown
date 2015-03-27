@@ -1,0 +1,43 @@
+---
+layout: post
+status: publish
+published: true
+title: 那些年,那些矩阵...
+author:
+  display_name: y1275963
+  login: y1275963
+  email: 1275963@gmail.com
+  url: ''
+author_login: y1275963
+author_email: 1275963@gmail.com
+wordpress_id: 48
+wordpress_url: http://y1275963.info/?p=48
+date: '2013-12-15 22:45:01 +0000'
+date_gmt: '2013-12-15 14:45:01 +0000'
+categories:
+- Matlab
+tags: []
+comments: []
+---
+<p>1. 系数矩阵<br />
+2. 增广矩阵<br />
+3. 行阶梯形矩阵<br />
+4. 行简化阶梯形矩阵<br />
+5. 等价标准形</p>
+<p>6. 对角矩阵<br />
+7. 上三角矩阵<br />
+8. 下三角矩阵<br />
+9. 单位矩阵<br />
+10. 可逆矩阵(非奇异的)<br />
+11. 非退化的矩阵:|A|!=0<br />
+12. 伴随矩阵:A*<br />
+13. 方阵<br />
+14. 初等矩阵<br />
+15. 矩阵的转置<br />
+16. 正定矩阵: For all the X belongs to Rn, X!=0, X’A*X&gt;0<br />
+17. 度量矩阵: In the case of (a,b)=X’AY, the A is called 度量矩阵<br />
+18. 过渡矩阵: In the case of (a1,a2,a3,…,an)=(b1,b2,b3,…,bn)C. C is called 过渡矩阵<br />
+19. 可换的矩阵: If AB=BA<br />
+20. 合同的矩阵: B=C’AC, If there is a C belongs to F and itself is invertible, We calle the relationship between A and B is 合同的矩阵<br />
+21. A~B 相似的矩阵: If there is a T belongs to F and B=T^-1AT<br />
+22. 正交矩阵: If X^-1 = X'</p>

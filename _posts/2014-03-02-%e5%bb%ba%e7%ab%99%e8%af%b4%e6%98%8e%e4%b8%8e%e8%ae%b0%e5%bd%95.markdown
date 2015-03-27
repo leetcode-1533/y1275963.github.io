@@ -1,0 +1,160 @@
+---
+layout: post
+status: publish
+published: true
+title: 建站说明与记录
+author:
+  display_name: y1275963
+  login: y1275963
+  email: 1275963@gmail.com
+  url: ''
+author_login: y1275963
+author_email: 1275963@gmail.com
+wordpress_id: 88
+wordpress_url: http://y1275963.info/?p=88
+date: '2014-03-02 13:35:04 +0000'
+date_gmt: '2014-03-02 05:35:04 +0000'
+categories:
+- y1275963
+- Linux
+tags: []
+comments: []
+---
+<p>额，实在是搞的头都有点大了。。。你说我为了争取网络自由容易嘛。活活搞了一个寒假的有没有，这限制，那限制，送个sql，你说我容易吗。。。。。。。。。。。。。</p>
+<p>现在，我们总算可以有了稳定的地方去自由滴发博客了，请允许我扯些废话，告诉大家，这个网站是怎么一点一点的长起来的，额，但是现在看到这个网站，就好像个屠夫一样，我所见者，非http，而是后面一堆一堆的php。额，站长要搞，飞机要搞，核函数也要搞，青春取经路漫漫，而今迈步从头越，从头越！</p>
+<p>记得是2013年第一场雪的时候吧，栾英杰同学用了一个下午的时间把网站挂到了Mac上的apple server的软件。也许只是一小步，从此不可收拾。。<br />
+apple server 太慢，没有phpmyadmin，换，换到mamp上面。本来我是说的不想要牵扯网络的，但是搞数据不得不，我知道，这个窟一打开，就没完了。。<br />
+终于，栾英杰于2014年年初的时候正式在宿舍里挂上了网站，兰大宿舍是有静态ip的，通过路由器的重定向功能，我把网路打开了，这时候，网站已经跑到了Ubuntu上面。<br />
+某日某时某刻，栾英杰忽然想起来了小时候的一个废弃的二手笔记本，求其父与之，朔日送抵。便于小凤姐姐处以半夜之功搭建，栾英杰的server终于正式上线了。<br />
+ip链通之后，栾英杰不满足，这时也和郜有了很好的关系，于是注册了人生第一个域名：<a href="http://gaoshuni.cc">gaoshuni.cc</a>，当时是当做给gao的博客的。<br />
+好景不长，凤姐姐说难于管理。退之。于是我又放回了宿舍。与凤因为一本书的缘故也莫名其妙地交恶了。<br />
+这时候宿舍里开始了网禁，那可了不得了，平常电脑我点个浏览器就注册了，黑乎乎的server怎么搞，又是临近期末，于是搁置。<br />
+放寒假的时候，总算有了时间了。注册阿里云一个，wordpress也从此分家，变成了mac上做本地站，阿里云做总站的格局。<br />
+发现国内vps需要备案，不厌其烦，花费近两个星期，注册到备案号<span style="font-size: 12pt; text-decoration: underline;"><a href="http://y1275963.info/”http://www.miibeian.gov.cn”">鲁ICP备14003846号</a></span> <span style="font-size: 12pt; color: rgb(52,52,52);"></span>，其中个就，容看官自斟。注册的时候一直想写个史诗级的记录，就写到这里吧：</p>
+<p><span style="font-size: 14pt; color: rgb(38,38,38);">订单号：</span><span style="font-size: 14pt; color: rgb(252,54,7);">23720032981</span> <span style="font-size: 14pt; color: rgb(38,38,38);">备案类型：</span> <span style="font-size: 14pt; color: rgb(252,54,7);">首次备案 </span><span style="font-size: 14pt; color: rgb(38,38,38);">当前状态：</span> <span style="font-size: 14pt; color: rgb(252,54,7);">管局审核通过 </span><span style="font-size: 14pt; color: rgb(38,38,38);">首次提交审核：</span><span style="font-size: 14pt; color: rgb(252,54,7);">2014-02-14 11:17:41</span></p>
+<table style="empty-cells: show;border-collapse: collapse;">
+<tr>
+<td style="background-color: rgb(242,242,242);width: 129px;padding: 15px,10px,15px,10px;border-top: 2px solid rgb(193,193,193);border-right: 1px solid rgb(193,193,193);border-bottom: 1px solid rgb(193,193,193);border-right: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 14pt; color: rgb(38,38,38);">审核时间<br />
+</span></td>
+<td style="background-color: rgb(242,242,242);width: 129px;padding: 15px,10px,15px,10px;border-top: 2px solid rgb(193,193,193);border-right: 1px solid rgb(193,193,193);border-bottom: 1px solid rgb(193,193,193);border-right: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 14pt; color: rgb(38,38,38);">审核阶段<br />
+</span></td>
+<td style="background-color: rgb(242,242,242);width: 79px;padding: 15px,10px,15px,10px;border-top: 2px solid rgb(193,193,193);border-right: 1px solid rgb(193,193,193);border-bottom: 1px solid rgb(193,193,193);border-right: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 14pt; color: rgb(38,38,38);">审核结果<br />
+</span></td>
+<td style="background-color: rgb(242,242,242);width: 517px;padding: 15px,10px,15px,10px;border-top: 2px solid rgb(193,193,193);border-right: 1px solid rgb(193,193,193);border-bottom: 1px solid rgb(193,193,193);border-right: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 14pt; color: rgb(38,38,38);">审核意见<br />
+</span></td>
+</tr>
+<tr>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">2014-02-25 09:40:36<br />
+</span></td>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">提交管局审核<br />
+</span></td>
+<td style="width: 79px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">通过<br />
+</span></td>
+<td style="width: 517px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">通过<br />
+</span></td>
+</tr>
+<tr>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">2014-02-18 13:18:00<br />
+</span></td>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">备案资料邮寄提交管局<br />
+</span></td>
+<td style="width: 79px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">通过<br />
+</span></td>
+<td style="width: 517px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">核验通过<br />
+</span></td>
+</tr>
+<tr>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">2014-02-18 13:05:08<br />
+</span></td>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">资料核对<br />
+</span></td>
+<td style="width: 79px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">通过<br />
+</span></td>
+<td style="width: 517px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">核验通过<br />
+</span></td>
+</tr>
+<tr>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">2014-02-18 11:50:34<br />
+</span></td>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">待客户邮寄资料<br />
+</span></td>
+<td style="width: 79px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">通过<br />
+</span></td>
+<td style="width: 517px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">结束<br />
+</span></td>
+</tr>
+<tr>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">2014-02-18 11:50:33<br />
+</span></td>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">资料录入<br />
+</span></td>
+<td style="width: 79px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">通过<br />
+</span></td>
+<td style="width: 517px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">邮寄资料录入完成<br />
+</span></td>
+</tr>
+<tr>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">2014-02-17 09:18:17<br />
+</span></td>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">当面核验<br />
+</span></td>
+<td style="width: 79px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">通过<br />
+</span></td>
+<td style="width: 517px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">核验通过<br />
+</span></td>
+</tr>
+<tr>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">2014-02-14 18:36:42<br />
+</span></td>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">待客户准备当面核验照片<br />
+</span></td>
+<td style="width: 79px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">通过<br />
+</span></td>
+<td style="width: 517px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">已完成<br />
+</span></td>
+</tr>
+<tr>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">2014-02-14 17:11:11<br />
+</span></td>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">备案初审<br />
+</span></td>
+<td style="width: 79px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">通过<br />
+</span></td>
+<td style="width: 517px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">网站正常无法打开<br />
+</span></td>
+</tr>
+<tr>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">2014-02-14 17:06:48<br />
+</span></p>
+</td>
+<td style="width: 517px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">提交初审<br />
+</span></td>
+</tr>
+<tr>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">2014-02-14 15:10:54<br />
+</span></td>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">备案初审<br />
+</span></td>
+<td style="width: 79px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">未通过<br />
+</span></td>
+<td style="width: 517px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">您好，您的备案信息不合格 问题1:您的网站名称为" php&python&mysql测试空间与个人IT知识积累库 ",个人网站名称不能涉及到行业、企业、产品等信息，且个人网站名称请勿涉及个人姓名、地名，请不要用纯数字或字母组成，不能包含特殊符号，不能使用成语；网站名称请使用3个以上汉字命名，请不能使用XXX个人空间、资讯、网站、网络、网址、爱好者、作品展示、工作室、平台、主页、热线、社团、导航这种的格式命名；网站名称中不能带有博客、论坛、在线、社区、交流等字样，若要带有此类信息，需提交前置审批文件; 问题2:您好：个人性质的网站，需在备注中详细说明一下网站开办后要做的内容,(必须为20字以上)请您详细说明后再重新提交，感谢您的配合！客户挂断电话<br />
+</span></td>
+</tr>
+<tr>
+<td style="width: 129px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">2014-02-14 14:45:37<br />
+</span></p>
+</td>
+<td style="width: 517px;padding: 15px,10px,15px,10px;border: 1px solid rgb(193,193,193);margin: 0px,0px,0px,0px;" style="text-align: center"><span style="font-size: 12pt; color: rgb(38,38,38);">提交初审</p>
+<p></span></p>
+</td>
+</tr>
+</table>
+<p>每一行都很要命。。。放到这里我都觉得有点头大。。</p>
+<p>写到今天了，搞了一晚上，打开了ftp的链路，方便同步backup，发现chown的bug一个，然后phpmyadmin那边也已经搞好，方便导入sql。我总结了之前无数建站的失误，实在感觉这个东西和linux，php什么的都有关系，东西大且依赖环境，环境一变，代码统统作废，因此越发的认真地写总结。发现鸟哥上有两句话说的对，建站不是有了网站，给你一下午，保准你能搭起来好多个服务。都是使用的缺省值，根本没有鲁棒性可言。还有一句是，windows上面做不出来你可以去抱怨，linux上的事情做出来了，你应该心存感恩！</p>
+<p>截止至本文的发文时间，网站那部分已经基本可以使用，backup于本地有备份，使用wordpress的一个plugin叫做：<br />
+<a href="http://wordpress.org/support/view/plugin-reviews/backupwordpress">http://wordpress.org/support/view/plugin-reviews/backupwordpress</a> 每天备份一次，之后有时间的了，挂个google driver。wordpress那边已经可用，发推文的时候连发到多处，防止因服务器的问题丢失数据。</p>
+<p>目前待办事宜：</p>
+<ol style="list-style-type: decimal">
+<li>robots.txt</li>
+<li>ftp 权限（已经777了）有空改过来就是</li>
+</ol>
