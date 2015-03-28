@@ -30,6 +30,31 @@
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
+    <script type="text/javascript" src="assets/indextank-jquery/jquery.indextank.ize.js"></script>
+        <script type="text/javascript" src="assets/indextank-jquery/jquery.indextank.autocomplete.js"></script>
+        <script type="text/javascript" src="assets/indextank-jquery/querybuilder.js"></script>
+        <script type="text/javascript" src="assets/indextank-jquery/jquery.indextank.ajaxsearch.js"></script>
+        <script type="text/javascript" src="assets/indextank-jquery/jquery.indextank.renderer.js"></script>
+        <script type="text/javascript" src="assets/indextank-jquery/jquery.indextank.instantsearch.js"></script>
+        
+        <script>
+	   	var userFormat = function(item) {
+			var r = 
+			$("<tr valign=\"top\"></tr>")
+			.html( $("<td></td>")
+			.html( $("<a></a>").attr("href", item.link || item.url ).text(item.title || item.name) ))
+			.append( $("<td></td>")
+			.html( $("<span></span>").addClass("description").html(item.snippet_text || item.text) ));
+			return r;
+		};
+
+		$(document).ready(function(){
+                $("#myform").indextank_Ize("http://evymez.api.indexden.com", "jshum_github_blog");
+                var renderer =  $("#results").indextank_Renderer({format: userFormat});
+                //var renderer =  $("#results").indextank_Renderer();
+                $("#query").indextank_Autocomplete().indextank_AjaxSearch( {listeners: renderer}).indextank_InstantSearch();
+            });        </script>
+
   </head>
 
   <body>
@@ -53,6 +78,10 @@
     </div>
 
     <div class="container-narrow">
+        <form onsubmit="my_search_google()" >
+                <li>Google Search :</li> {% include my_google_search.html %}
+                <input type="text" id="my-google-search">
+        </form>
 
       <div class="content">
         {{ content }}
