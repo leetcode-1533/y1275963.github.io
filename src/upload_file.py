@@ -3,7 +3,7 @@ A Script to upload image and build folder according to the markdown file, select
 then select the image file. Copy the image file according the markdown file's modifiy_date to google drive
 copy the google dirve address to clipboard
 """
-:
+from Tkinter import Tk
 from tkFileDialog import askopenfilename
 import magic
 import os
@@ -67,7 +67,12 @@ def mark_dialog():
     
 def get_clipboard(mark_filename,img_filename):
     modifiy_date = modification_date(mark_filename)
-    return web_repo+str(modifiy_date.year)+'/'+str(modifiy_date.month)+'/'+os.path.basename(img_filename)
+    figure_p1 = '<figure>\n<img src="'
+    figure_p2 = '">\n<figcaption align=\'middle\'><b>Demo</b></figcaption>\n</figure>'
+
+    url =  web_repo+str(modifiy_date.year)+'/'+str(modifiy_date.month)+'/'+os.path.basename(img_filename)
+
+    return figure_p1 + url + figure_p2
 
 def write_to_clipboard(output):
     process = subprocess.Popen(
