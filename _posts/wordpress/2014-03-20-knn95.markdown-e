@@ -76,7 +76,7 @@ print classify0([0.5,0.5],g1,l1,2)</pre>
 <p>这是实践部分，我拿他来分类数字：</p>
 <p>自己手工写的，知道一定特别挫，但最后按时给我弄出来了。最坑爹的是python中numpy数组不给你动态的。害的<span style="text-decoration: underline;">你爹爹</span>弄了半天：</p>
 <p>上个牛逼的结果：</p>
-<p>[video width="480" height="272" m4v="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/New-Project.m4v"][/video]</p>
+<p>[video width="480" height="272" m4v="http://y1275963.info/wordpress/wp-content/uploads/2014/03/New-Project.m4v"][/video]</p>
 <p>这是我写的数据处理部分：</p>
 <pre class="lang:python decode:true">dir = '/Users/tk/py_knearest/testDigits'
 # for i in os.listdir(dir):

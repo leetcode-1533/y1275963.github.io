@@ -23,11 +23,11 @@ comments: []
 <p>Env:</p>
 <p>1.Mac 10.9</p>
 <p>2.Python 2.7 : compiled from anaconda.</p>
-<p>恩，<a href="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/libsvm-3.17.zip">libsvm-3.17</a>这个就是今天的主菜了。由于鄙人在Mac下工作，那些win的同学们就对不住了啊。</p>
+<p>恩，<a href="http://y1275963.info/wordpress/wp-content/uploads/2014/03/libsvm-3.17.zip">libsvm-3.17</a>这个就是今天的主菜了。由于鄙人在Mac下工作，那些win的同学们就对不住了啊。</p>
 <p>本来想写个matlab的，懒得再弄了，毕竟之后自己感觉工作重点在python，因为matlab自己感觉有时候字符串处理还有部署是点问题了。大概折腾了一会吧，对python module的引入不太了解。</p>
 <p>(1).py:</p>
 <p>先到python那个文件夹，然后make一下就成了，那个python里面的.py就是我们要处理的文件了。</p>
-<p><a href="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/Screen-Shot-2014-03-14-at-10.52.35-PM.png"><img class="alignnone size-full wp-image-194" alt="Screen Shot 2014-03-14 at 10.52.35 PM" src="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/Screen-Shot-2014-03-14-at-10.52.35-PM.png" width="195" height="21" /></a>按照官网的说法：</p>
+<p><a href="http://y1275963.info/wordpress/wp-content/uploads/2014/03/Screen-Shot-2014-03-14-at-10.52.35-PM.png"><img class="alignnone size-full wp-image-194" alt="Screen Shot 2014-03-14 at 10.52.35 PM" src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/Screen-Shot-2014-03-14-at-10.52.35-PM.png" width="195" height="21" /></a>按照官网的说法：</p>
 <p>“when a module named spam is imported, the interpreter first searches for a built-in module with that name. If not found, it then searches for a file named spam.py in a list of directories given by the variable sys.path. sys.path is initialized from there locations:</p>
 <ul>
 <li>the directory containing the input script(or the current directory).</li>

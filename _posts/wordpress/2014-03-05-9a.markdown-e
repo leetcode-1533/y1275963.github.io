@@ -23,7 +23,7 @@ comments: []
 <p>while choice != 'y' <span style="text-decoration: underline;">and</span> choice != 'n':# Fill in the condition (before the colon)<br />
 print choice<br />
 choice = raw_input("Sorry, I didn't catch that. Enter again: ")</p>
-<p><a href="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/Screen-Shot-2014-03-05-at-7.31.31-PM.png"><img class="alignnone size-medium wp-image-135" alt="Screen Shot 2014-03-05 at 7.31.31 PM" src="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/Screen-Shot-2014-03-05-at-7.31.31-PM-300x74.png" width="300" height="74" /></a></p>
+<p><a href="http://y1275963.info/wordpress/wp-content/uploads/2014/03/Screen-Shot-2014-03-05-at-7.31.31-PM.png"><img class="alignnone size-medium wp-image-135" alt="Screen Shot 2014-03-05 at 7.31.31 PM" src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/Screen-Shot-2014-03-05-at-7.31.31-PM-300x74.png" width="300" height="74" /></a></p>
 <p>真是晕死了，布尔代数的错：：：</p>
 <p>&nbsp;</p>
 <p>逻辑问题哦。。</p>

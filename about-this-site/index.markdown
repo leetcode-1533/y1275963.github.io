@@ -38,8 +38,8 @@ comments:
 <li><span style="line-height: 1.714285714; font-size: 1rem;">放寒假的时候，总算有了时间了。注册阿里云一个，wordpress也从此分家，变成了mac上做本地站，阿里云做总站的格局。</span></li>
 <li><span style="line-height: 1.714285714; font-size: 1rem;">发现国内vps需要备案，不厌其烦，花费近两个星期，注册到备案号</span><a style="line-height: 1.714285714; font-size: 1rem;" href="http://y1275963.info/”http://www.miibeian.gov.cn”">鲁ICP备14003846号</a><span style="line-height: 1.714285714; font-size: 1rem;">，其中个就，容看官自斟。注册的时候一直想写个史诗级的记录，就写到这里吧：</span></li>
 </ul>
-<p><span style="font-size: 1rem; line-height: 1.714285714;"><a href="http://y1275963.info/wordpress/wp-content/uploads/2014/03/333.jpg"><br />
-</a><a href="http://y1275963.info/wordpress/wp-content/uploads/2014/03/vm1.png"><img class="aligncenter size-large wp-image-98" alt="vm" src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/vm1-803x1024.png" width="625" height="797" /></a></span></p>
+<p><span style="font-size: 1rem; line-height: 1.714285714;"><a href="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/333.jpg"><br />
+</a><a href="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/vm1.png"><img class="aligncenter size-large wp-image-98" alt="vm" src="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/vm1-803x1024.png" width="625" height="797" /></a></span></p>
 <p><span style="font-size: 1rem; line-height: 1.714285714;">每一行都很要命。。。放到这里我都觉得有点头大。。</span></p>
 <ul>
 <li>写到今天了，搞了一晚上，打开了ftp的链路，方便同步backup，发现chown的bug一个，然后phpmyadmin那边也已经搞好，方便导入sql。我总结了之前无数建站的失误，实在感觉这个东西和linux，php什么的都有关系，东西大且依赖环境，环境一变，代码统统作废，因此越发的认真地写总结。发现鸟哥上有两句话说的对，建站不是有了网站，给你一下午，保准你能搭起来好多个服务。都是使用的缺省值，根本没有鲁棒性可言。还有一句是，windows上面做不出来你可以去抱怨，linux上的事情做出来了，你应该心存感恩！</li>

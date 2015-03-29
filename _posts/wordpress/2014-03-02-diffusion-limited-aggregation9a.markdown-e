@@ -24,7 +24,7 @@ comments: []
 2. 随机另生成一个点<br />
 3. 连续地移动新生成的点<br />
 4. 直到两个点相邻为止<br />
-<a href="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/untitled.jpg"><img class="alignnone size-medium wp-image-146" alt="untitled" src="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/untitled-300x192.jpg" width="300" height="192" /></a><br />
+<a href="http://y1275963.info/wordpress/wp-content/uploads/2014/03/untitled.jpg"><img class="alignnone size-medium wp-image-146" alt="untitled" src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/untitled-300x192.jpg" width="300" height="192" /></a><br />
 重复2-4步，就可以生成一棵树了~<br />
 generator.m:</p>
 <pre class="lang:matlab decode:true ">% function list = generator(list,minrange,maxrange,point)

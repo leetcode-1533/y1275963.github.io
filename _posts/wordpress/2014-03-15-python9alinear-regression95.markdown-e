@@ -35,7 +35,7 @@ comments:
 ---
 <p>这是有关于拟合的一个算法：</p>
 <p>http://sagemath.wikispaces.com/numpy.linalg.lstsq</p>
-<p><a href="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/Screen-Shot-2014-03-15-at-4.46.51-PM.png"><img class="alignnone size-medium wp-image-202" alt="Screen Shot 2014-03-15 at 4.46.51 PM" src="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/Screen-Shot-2014-03-15-at-4.46.51-PM-300x161.png" width="300" height="161" /></a></p>
+<p><a href="http://y1275963.info/wordpress/wp-content/uploads/2014/03/Screen-Shot-2014-03-15-at-4.46.51-PM.png"><img class="alignnone size-medium wp-image-202" alt="Screen Shot 2014-03-15 at 4.46.51 PM" src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/Screen-Shot-2014-03-15-at-4.46.51-PM-300x161.png" width="300" height="161" /></a></p>
 <p>&nbsp;</p>
 <p>比如说吧：</p>
 <p>x 是原始的x；</p>
@@ -53,7 +53,7 @@ test =
 <p><span style="font-size: 1rem; line-height: 1;"><span class="lang:default decode:true  crayon-inline ">numpy.linalg.lstsq(A,B): </span> </span></p>
 <p><span style="font-size: 1rem; line-height: 1;">where array_A is an n*2 array and array_B is a 1*n array.(是有点不一样)</span></p>
 <p>&nbsp;</p>
-<p><a style="line-height: 1.714285714; font-size: 1rem;" href="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/Untitled.png"><img class="alignnone size-medium wp-image-201" alt="Untitled" src="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/Untitled-300x225.png" width="300" height="225" /></a></p>
+<p><a style="line-height: 1.714285714; font-size: 1rem;" href="http://y1275963.info/wordpress/wp-content/uploads/2014/03/Untitled.png"><img class="alignnone size-medium wp-image-201" alt="Untitled" src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/Untitled-300x225.png" width="300" height="225" /></a></p>
 <p><span style="line-height: 1.714285714; font-size: 1rem;">原始数据：</span></p>
 <pre class="lang:default decode:true">&lt;&gt;
 x_d = [18,23,25,35,65,54,34,56,72,19,23,42,18,39,37]

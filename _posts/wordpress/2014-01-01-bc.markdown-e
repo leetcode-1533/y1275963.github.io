@@ -29,7 +29,7 @@ R中的l(l+1)</p>
 <p>静态柱坐标系下,也有两个特征值:<br />
 fai中的r;(m^2)<br />
 z和R结合的U</p>
-<p><img src="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/wpid-wpid-05cdca98facf3e8977af52389a953206-2014-01-1-18-47-2014-01-1-18-47.jpeg" alt="wpid-wpid-05cdca98facf3e8977af52389a953206-2014-01-1-18-47-2014-01-1-18-47.jpeg" width="963" height="695"></p>
+<p><img src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/wpid-wpid-05cdca98facf3e8977af52389a953206-2014-01-1-18-47-2014-01-1-18-47.jpeg" alt="wpid-wpid-05cdca98facf3e8977af52389a953206-2014-01-1-18-47-2014-01-1-18-47.jpeg" width="963" height="695"></p>
 <p>clear all<br />
  x = 0 : 0.001: 1;<br />
  A = sin(pi*[1:4]'*x);<br />
@@ -94,4 +94,4 @@ h4 = plot(x,ww4,'k');</p>
       imwrite(im,map2,name,'WriteMode','append','DelayTime',dt); %,'LoopCount',inf);<br />
     end<br />
   end </p>
-<p><img src="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/wpid-wpid-3ec27148dd67c874d1c088e8f53467e8-2014-01-1-18-47-2014-01-1-18-47.gif" alt="wpid-wpid-3ec27148dd67c874d1c088e8f53467e8-2014-01-1-18-47-2014-01-1-18-47.gif" width="560" height="420"></p>
+<p><img src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/wpid-wpid-3ec27148dd67c874d1c088e8f53467e8-2014-01-1-18-47-2014-01-1-18-47.gif" alt="wpid-wpid-3ec27148dd67c874d1c088e8f53467e8-2014-01-1-18-47-2014-01-1-18-47.gif" width="560" height="420"></p>

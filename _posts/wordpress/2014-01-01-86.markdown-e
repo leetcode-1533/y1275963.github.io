@@ -24,7 +24,7 @@ comments: []
 [Q,R]= cart2pol(X,Z);<br />
 R(find(R==1))=NaN;</p>
 <p>u=1./sqrt(1-2.*R.*cos(Q)+R.^2);<br />
-meshc(X,Z,u); <img src="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/wpid-wpid-bc85136fdb3254c72c712ae1fb1873a2-2014-01-1-17-31-2014-01-1-17-31.jpeg" alt="wpid-wpid-bc85136fdb3254c72c712ae1fb1873a2-2014-01-1-17-31-2014-01-1-17-31.jpeg" width="741" height="537"></p>
+meshc(X,Z,u); <img src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/wpid-wpid-bc85136fdb3254c72c712ae1fb1873a2-2014-01-1-17-31-2014-01-1-17-31.jpeg" alt="wpid-wpid-bc85136fdb3254c72c712ae1fb1873a2-2014-01-1-17-31-2014-01-1-17-31.jpeg" width="741" height="537"></p>
 <p>用勒让德函数去逼近:<br />
 ? 这个我没理解:<br />
 % [X,Z]= meshgrid([0:0.1:3],[0:0.1:2]);<br />
@@ -47,4 +47,4 @@ meshc(X,Z,u); <img src="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3
         Uin=Uin+uin;<br />
     end<br />
     figure<br />
-    meshc(X,Z,Uin);<img src="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/wpid-wpid-ab9dad665c70b586227e64156ff29a3a-2014-01-1-17-31-2014-01-1-17-31.jpeg" alt="wpid-wpid-ab9dad665c70b586227e64156ff29a3a-2014-01-1-17-31-2014-01-1-17-31.jpeg" width="560" height="420"></p>
+    meshc(X,Z,Uin);<img src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/wpid-wpid-ab9dad665c70b586227e64156ff29a3a-2014-01-1-17-31-2014-01-1-17-31.jpeg" alt="wpid-wpid-ab9dad665c70b586227e64156ff29a3a-2014-01-1-17-31-2014-01-1-17-31.jpeg" width="560" height="420"></p>

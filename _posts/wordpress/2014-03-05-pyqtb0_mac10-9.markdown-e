@@ -29,8 +29,8 @@ comments: []
 注：<br />
 Compile from source code rather than using homebrew or macport</p>
 <p>Raw Materials:</p>
-<p><a href="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/PyQt-mac-gpl-4.10.3.tar.gz">PyQt-mac-gpl-4.10.3.tar</a></p>
-<p><a href="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/sip-4.15.5-snapshot-22c03a345d4e.tar.gz">sip-4.15.5-snapshot-22c03a345d4e.tar</a></p>
+<p><a href="http://y1275963.info/wordpress/wp-content/uploads/2014/03/PyQt-mac-gpl-4.10.3.tar.gz">PyQt-mac-gpl-4.10.3.tar</a></p>
+<p><a href="http://y1275963.info/wordpress/wp-content/uploads/2014/03/sip-4.15.5-snapshot-22c03a345d4e.tar.gz">sip-4.15.5-snapshot-22c03a345d4e.tar</a></p>
 <p>Steps:</p>
 <p>1.compile&amp;install sip:<br />
 请先解压sip包，并在解压后文件夹内执行：<br />
@@ -75,5 +75,5 @@ alias python=‘python2.6’；<br />
 这样就屏蔽掉了enthought的python<br />
 Testing:<br />
 创建文件test.py:</p>
-<p><a href="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/test.py_.zip">test.py</a></p>
+<p><a href="http://y1275963.info/wordpress/wp-content/uploads/2014/03/test.py_.zip">test.py</a></p>
 <p>运行python test.py。发现可用。</p>

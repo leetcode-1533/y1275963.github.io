@@ -39,8 +39,8 @@ comments:
     Yeah, I build it myself.. Based on Wordpress & Apache and Centos as well.
     The theme just came with the Original Wordpress archive, you can download this one from http://wordpress.org/latest. The Theme name is Twenty Twelve.
 ---
-<p><img src="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/wpid-Screen-Shot-2013-12-23-at-5.21.49-PM1-2013-12-23-17-32.png" alt="wpid-Screen-Shot-2013-12-23-at-5.21.49-PM1-2013-12-23-17-32.png" width="77" height="67"><br />
-<img src="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/wpid-Screen-Shot-2013-12-23-at-5.25.46-PM-2013-12-23-17-32.png" alt="wpid-Screen-Shot-2013-12-23-at-5.25.46-PM-2013-12-23-17-32.png" width="600" height="366"></p>
+<p><img src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/wpid-Screen-Shot-2013-12-23-at-5.21.49-PM1-2013-12-23-17-32.png" alt="wpid-Screen-Shot-2013-12-23-at-5.21.49-PM1-2013-12-23-17-32.png" width="77" height="67"><br />
+<img src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/wpid-Screen-Shot-2013-12-23-at-5.25.46-PM-2013-12-23-17-32.png" alt="wpid-Screen-Shot-2013-12-23-at-5.25.46-PM-2013-12-23-17-32.png" width="600" height="366"></p>
 <p>mac竟然崩掉了.你这让我如何是好~不行不行,这个qt的总结挺重要的,是面向对象的理解,重新写一遍吧.<span style="text-decoration: underline;"><a href="https://github.com/y1275963/FFF">git</a></span>(~额的心肝)<br />
 额,这个程序写了一个月~大概有3000+吧,当初写的想法是”调用一切可用的资源,做出最好的程序”,目前感觉我对面向对象那块弄的还不错,但是当了程序员之后有个硬伤,那就是”对美的阀值"已经低到了令人发指的地步了.整天在console跑,全是终端,根本就没有什么图形客户端的感觉了~还是老师会说话,那叫”朴素”明白吗…有空的时候我好好修补一下.<br />
 为了写这个程序我给他铺设了两大支持系统.一个是用来表达个性化的登录系统,就是说,一旦有人登录了,这个系统保障了任何用有这个类的成员都能获得这个人的个性化信息,从而根据该信息进行remodify.比如说有了tutor支持就可以发布信息,有了admin支持就可以进行人事更改.还有一个是个不说也得要的~数据库嘛,我总得保障能链到一起.(话说现在我是写一段publish一段啊,就和用git似得,真伤了).我感觉这两个完全自己写的QObject也许就能部分代表面向对象这种思想吧,传入一个简简单单的一个指针,我就能即时的获取无尽的相关资源.妈妈再也不用让我到处乱跑了~只要源头上变了,后面全部跟着变.<br />

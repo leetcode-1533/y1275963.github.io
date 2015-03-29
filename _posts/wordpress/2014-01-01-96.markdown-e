@@ -20,7 +20,7 @@ tags: []
 comments: []
 ---
 <p><span style="font-size: 20pt;">这个是用matlab做的反演变换:R 定成了 3,对单位园x^2+y^2=1 做的变换: 代码是在是短的可怜,直接复制过来吧.懒的发github了  <br />
-</span><img src="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/wpid-wpid-untitled2-2014-01-1-19-29-2014-01-1-19-29.jpg" alt="wpid-wpid-untitled2-2014-01-1-19-29-2014-01-1-19-29.jpg" width="560" height="420"><br />
+</span><img src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/wpid-wpid-untitled2-2014-01-1-19-29-2014-01-1-19-29.jpg" alt="wpid-wpid-untitled2-2014-01-1-19-29-2014-01-1-19-29.jpg" width="560" height="420"><br />
 tha = 0:0.01*pi:2*pi;<br />
 ox = cos(tha);<br />
 oy = sin(tha);<br />
@@ -43,7 +43,7 @@ axis square<br />
 axis on<br />
 grid on<br />
 <span style="font-size: 17pt;">接下来的是老师做的,我只做出了一个....另一个是未定义的.</span></p>
-<p><img src="http://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2014/03/wpid-wpid-untitled-2014-01-1-19-29-2014-01-1-19-29.jpg" alt="wpid-wpid-untitled-2014-01-1-19-29-2014-01-1-19-29.jpg" width="560" height="420"></p>
+<p><img src="http://y1275963.info/wordpress/wp-content/uploads/2014/03/wpid-wpid-untitled-2014-01-1-19-29-2014-01-1-19-29.jpg" alt="wpid-wpid-untitled-2014-01-1-19-29-2014-01-1-19-29.jpg" width="560" height="420"></p>
 <p><span style="font-size: 13pt;">Results:<br />
 </span>th = 0:0.001*pi:2*pi;<br />
 x=(2^0.5).*cos(th);<br />
