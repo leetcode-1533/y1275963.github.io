@@ -139,11 +139,11 @@ Below is the video comparison,
 
 Original video:
 
-{% youtube 5wvZ0eYjHi0 %} 
+[![Original video](http://img.youtube.com/vi/5wvZ0eYjHi0/0.jpg)](http://www.youtube.com/watch?v=5wvZ0eYjHi0)
 
 Color amplified video:
 
-{% youtube 533TsYwtqUc %}
+[![Original video](http://img.youtube.com/vi/533TsYwtqUc/0.jpg)](http://www.youtube.com/watch?v=533TsYwtqUc)
 
 ##6. What's next?##
 
