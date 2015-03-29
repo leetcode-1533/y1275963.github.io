@@ -44,6 +44,7 @@ def copy_file(mark_filename,img_filename):
         if not os.path.exists(target_path):
             os.makedirs(target_path)
         shutil.copy2(img_filename,target_file)
+        print("Copied to GOOGLE")
         return True
     
 def img_dialog():
@@ -89,8 +90,8 @@ if __name__ == "__main__" :
         if copy_file(mark_filename,img_filename):
             write_to_clipboard(get_clipboard(mark_filename,img_filename))
         else:
-            "Failed"
+            write_to_clipboard(get_clipboard(mark_filename,img_filename))
     else:
-        "Abandoned"
+        print "User say 'No'"
         
            
