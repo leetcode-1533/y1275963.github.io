@@ -1,14 +1,15 @@
 ---
 layout: post
-title: "Matlab implementation of the simplest one"
+title: "Matlab implementation of the EVM(Eulerian Video Magnification)"
 description: "This is my GSOC2015 log"
 category: GSOC2015
 tags: [Matlab,VTK]
 ---
 {% include JB/setup %}
 
-As we can see from the [previous tutorial ](http://y1275963.github.io/gsoc2015/2015/03/22/basics/), we have got the idea of how to do it.
-And I do have implemented it using Matlab. And I would like to write a detailed description of what I have done, the [code](https://github.com/y1275963/matlab_evm) is not optimized and is pretty slow, but I got the way to work around it.
+As we can see from the [previous tutorial ](http://y1275963.github.io/gsoc2015/2015/03/22/basics/), we have got the idea of the whole theory of the EVM(Eulerian Video Magnification), now it is the time to bring into reality.
+
+I have implemented it using Matlab. And I would like to write a detailed description of what I have done, the [code](https://github.com/y1275963/matlab_evm) is not optimized and is pretty slow, but I got the way to work around it.
 
 I thought the simplest combination should be using ideal filter( Just FFT is enough) in temporal domain and Gaussian pyramid in spatial domain. And doing so will allow us to amplify the color vibration.(As what the demo have done)
 
