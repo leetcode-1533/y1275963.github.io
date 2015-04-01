@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python script for Jekyll"
+title: "Python scripts for Jekyll"
 description: "This this the collection of the Jekyll scripts"
 category: "Jekyll"
 tags: []
