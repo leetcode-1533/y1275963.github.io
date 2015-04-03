@@ -87,10 +87,9 @@ if __name__ == "__main__" :
     img_filename =  img_dialog()
     
     if get_yn() == True:
-        if copy_file(mark_filename,img_filename):
-            write_to_clipboard(get_clipboard(mark_filename,img_filename))
-        else:
-            write_to_clipboard(get_clipboard(mark_filename,img_filename))
+    # Copy to the clipboard no maater it is success or not 
+        copy_file(mark_filename,img_filename):
+        write_to_clipboard(get_clipboard(mark_filename,img_filename))
     else:
         print "User say 'No'"
         
