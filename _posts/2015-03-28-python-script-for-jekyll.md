@@ -11,7 +11,7 @@ All the source code can be found on [Github](https://github.com/y1275963/y127596
 
 Because Jekyll is a static blog, and many functionalities are constrained due to html. I don't know how to write rake program, but anyway, I managed to use python do the work for me, and I am quite satisfied with the results. 
 
-### Wordpress->Jekyll: Rename Chinese
+### Wordpress->Jekyll: Post modifier( Removing Chinese in the titles)
 
 When I used the wordpress to Jekyll converter, I do get the result, but all the posts with Chinese characters title cannot be opened(404 Error On github host, working fine locally) due to unknow bug, I determined to use regular expression to delete all the Chinese character within the title. And wow! I picked up all my old 56 posts :smile:
 
