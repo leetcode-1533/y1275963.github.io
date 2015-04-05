@@ -20,6 +20,10 @@ tags: []
 comments: []
 ---
 <p>这是心型函数</p>
+<figure>
+<img src="https://googledrive.com/host/0B6Io4fF4zXvDTnBFeXRBM0Vja3c/images/2015/3/untitled.png">
+<figcaption align='middle'><b>Demo</b></figcaption>
+</figure>
 <p> </p>
 <table>
 <tr>
