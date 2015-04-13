@@ -19,7 +19,7 @@ I felted puzzled. Because I went throught the class so fast that I havn't sit do
 
 And then I decided to do something to help me visualize the images.
 
-Ok. Let put aside the physicial backgroud about the Forward DTFT, and I will not tell you it is the inner product of the signal x[n] with the arbitary sinusoid function at frequency $$\omega$$.
+Ok. Let put aside the physical background about the Forward DTFT, and I will not tell you it is the inner product of the signal x[n] with the arbitrary sinusoid function at frequency $$\omega$$.
 What we want to visualize is the magnitude of the following:
 
 
